@@ -1,0 +1,295 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Grenze+Gotisch:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Bai Jamjuree;
+    /* box-sizing: border-box; */
+}
+div.maindiv img{
+    position: relative;
+    left: 50%;
+    top: 110px;
+    translate: -50%;
+}
+div.maindiv h2{
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    translate: -50%;
+    font-family: Bai Jamjuree;
+    font-size: 30px;
+    color: rgb(76, 84, 93);
+}
+.firstpara p{
+    font-family: Bai Jamjuree;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(76, 84, 93, 0.468);
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    translate: -50%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.button1{
+    background-color: rgb(38, 186, 164);
+    translate: 50%;
+    width: 130px;
+    padding: 7px;
+    color: white;
+    position: absolute;
+    top: 380px;
+    left: 32%;
+    border-radius: 20px;
+    border: 2px;
+    box-shadow: 2px 2px 10px rgb(38, 186, 164);
+    text-align: center;
+}
+.button2{
+    background-color: rgb(97, 115, 255);
+    translate: 40%;
+    left: 46%;
+    width: 130px;
+    position: absolute;
+    top: 380px;
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
+    border: 2px;
+    box-shadow: 2px 2px 10px  rgb(97, 115, 255);
+    text-align: center;
+}
+div.keeptrack h3{
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    top: 520px;
+    font-size: 24px;
+    color: rgb(76, 84, 93);
+}
+div.para2 p{
+    position: absolute;
+    top: 560px;
+    left: 50%;
+    translate: -50%;
+    text-align: center;
+    color: rgba(76, 84, 93, 0.498);
+    font-size: 15px;
+    font-weight: 400;
+}
+div.computerscreen img{
+    position: absolute;
+    top: 105%;
+    left: -29px;
+}
+.detail1{
+    position: absolute;
+    top: 115%;
+    left: 52%;
+}
+.details p{
+    margin-top: 10px;
+    font-size: 15px;
+    color:  rgba(76, 84, 93, 0.653);
+}
+div.details h3{
+    color:  rgba(76, 84, 93, 0.927);
+    font-size: 18px;
+}
+.detail2{
+    position: absolute;
+    left: 52%;
+    top: 130%;
+}
+.detail3{
+    position: absolute;
+    top: 145%;
+    left: 52%;
+}
+div.h3access{
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    top: 1210px;
+    color: rgb(76, 84, 93);
+}
+div.para3{
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    top: 1245px;
+    text-align: center;
+    color: rgba(76, 84, 93, 0.354);
+    font-size: 12.5px;
+    font-weight: 600;
+}
+div.computerscreen2{
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    top: 1350px;
+}
+.image2{
+    width: 700px;
+}
+div.supercharge{
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    top: 1820px;
+    color: rgb(76, 84, 93);
+    font-size: 19px;
+}
+div.para4{
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    top: 1855px;
+    color: rgba(76, 84, 93, 0.354);
+    font-size: 11.5px;
+    font-weight: 650;
+}
+
+div.leftside{
+    position: absolute;
+    top: 1920px;
+    left: 20%;
+    text-align: center;
+}
+div.leftside h4{
+    color: rgb(76, 84, 93);
+}
+div.leftside p{
+    color: rgba(76, 84, 93, 0.354);
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+div.middle{
+    position: absolute;
+    top: 1927px;
+    left: 41%;
+    text-align: center;
+}
+div.middle h4{
+    color: rgb(76, 84, 93);
+}
+div.middle p{
+    color: rgba(76, 84, 93, 0.354);
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+div.rightside{
+    position: absolute;
+    top: 1927px;
+    left: 62%;
+    text-align: center;
+}
+div.rightside h4{
+    color: rgb(76, 84, 93);
+}
+div.rightside p{
+    color: rgba(76, 84, 93, 0.354);
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.logos{
+    position: absolute;
+    left: 40%;
+    translate: -33%;
+    top: 2150px;
+}
+div.lastheading h3{
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    top: 2280px;
+    color: rgb(76, 84, 93);
+    font-size: 19px;
+}
+div.lastpara p{
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    top: 2320px;
+    color: rgba(76, 84, 93, 0.354);
+    font-size: 11.5px;
+    font-weight: 650;
+    text-align: center;
+}
+.lbutton1{
+    background-color: rgb(38, 186, 164);
+    translate: 50%;
+    width: 130px;
+    padding: 7px;
+    color: white;
+    position: absolute;
+    top: 2380px;
+    left: 32%;
+    border-radius: 20px;
+    border: 2px;
+    box-shadow: 2px 2px 10px rgb(38, 186, 164);
+    text-align: center;
+}
+.lbutton2{
+    background-color: rgb(97, 115, 255);
+    translate: 40%;
+    left: 46%;
+    width: 130px;
+    position: absolute;
+    top: 2380px;
+    padding: 7px;
+    color: white;
+    border-radius: 20px;
+    border: 2px;
+    box-shadow: 2px 2px 10px  rgb(97, 115, 255);
+    text-align: center;
+}
+.lastdiv{
+    background-color: hsla(180, 1%, 74%, 0.299);
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 2600px;
+}
+.lastlogo{
+    width: 40px;
+    margin-top: 30px;
+    margin-left: 190px;
+    display: inline-block;
+}
+div.lasttext{
+    width: fit-content;
+    display: inline-block;
+    margin-left: 190px;
+    color: rgba(76, 84, 93, 0.669);
+    font-weight: 450;
+    font-size: 13px;
+    margin-top: 30px;
+}
+.facebook{
+    display: inline-block;
+    margin-right: 20px;
+}
+.icondiv{
+    display: inline-block;
+    margin-left: 210px;
+    vertical-align: 10px;
+}
+.twitter{
+    display: inline-block;
+    margin-right: 20px;
+}
+.instagram{
+    display: inline-block;
+}
